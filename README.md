@@ -3,18 +3,18 @@
 TwilioSMS is a dev tool for experimenting with SMS and testing the Twilio API.
 
 ## Note:
-This tool is intended strictly for educational and testing purposes. Users must adhere to local laws and regulations related to anonymous messaging. While the recipient of the SMS might not know who the sender is, the messages are not truly anonymous...
+This tool is intended strictly for educational and testing purposes. Users must adhere to laws and regulations related to anonymous messaging. While the recipient of the SMS might not know who the sender is, the messages are not truly anonymous...
 
 ## Disclaimers:
 - TwilioSMS is not designed for any unsolicited messaging or malicious activities.
 - The developers are not responsible for any misuse of this tool.
+- Twilio assigns a single phone number to your account for all outgoing SMS messages. If you wish to change this number, you must release the current one and purchase a new one through your Twilio account.
 
 ## Features:
 - A command-line tool for dispatching SMS messages without revealing identity.
-- Twilio assigns a single phone number to your account for all outgoing SMS messages. If you wish to change this number, you must release the current one and purchase a new one through your Twilio account
 
 ## Usage:
-Before using TwilioSMS, ensure Git and Python are installed on your system. For installation instructions specific to your operating system, please refer to the respective guides.
+Before using TwilioSMS, ensure Git and Python are installed on your system.
 
 ### General Steps:
 1. Clone the TwilioSMS repository from GitHub:
@@ -33,10 +33,8 @@ Before using TwilioSMS, ensure Git and Python are installed on your system. For 
 
 5. Execute the setup script :
    ```
-   bash Run.sh
+   bash start.sh
    ```
 
-
 ## SMS Service Integration with Twilio:
-TwilioSMS is integrated with Twilio for sending SMS messages. Twilio provides robust support for SMS services and can be extended for email integration in future developments.
-# TwilioSMS
+TwilioSMS is integrated with Twilio for sending SMS messages. Twilio provides robust support for SMS services and can be extended for email integration in future developments on the paid plan.
