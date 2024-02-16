@@ -1,0 +1,27 @@
+twilio.http_client - INFO - -- BEGIN Twilio API Request --
+twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACda2713a62331bb142eb57d41c0725088/Messages.json
+twilio.http_client - INFO - Headers:
+twilio.http_client - INFO - User-Agent : twilio-python/8.13.0 (Darwin x86_64) Python/3.11.7
+twilio.http_client - INFO - X-Twilio-Client : python-8.13.0
+twilio.http_client - INFO - Accept-Charset : utf-8
+twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+twilio.http_client - INFO - Accept : application/json
+twilio.http_client - INFO - -- END Twilio API Request --
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.twilio.com:443
+urllib3.connectionpool - DEBUG - https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACda2713a62331bb142eb57d41c0725088/Messages.json HTTP/1.1" 400 339
+twilio.http_client - INFO - Response Status Code: 400
+twilio.http_client - INFO - Response Headers: {'Date': 'Fri, 16 Feb 2024 16:44:52 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '339', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Twilio-Request-Id': 'RQ40bf3ae977113fe095f52021ef79f3ea', 'Twilio-Request-Duration': '0.071', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+root - ERROR - TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACda2713a62331bb142eb57d41c0725088/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The number +44772016XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +44772016XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21608[0m
+
+

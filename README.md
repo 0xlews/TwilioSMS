@@ -1,6 +1,6 @@
 # TwilioSMS
 
-TwilioSMS is a dev tool for experimenting with SMS and testing the Twilio API. 
+TwilioSMS is a dev tool for experimenting with SMS and testing the Twilio API.
 
 ## Note:
 This tool is intended strictly for educational and testing purposes. Users must adhere to local laws and regulations related to anonymous messaging. While the recipient of the SMS might not know who the sender is, the messages are not truly anonymous...
