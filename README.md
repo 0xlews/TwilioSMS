@@ -19,7 +19,7 @@ Before using TwilioSMS, ensure Git and Python are installed on your system.
 ### General Steps:
 1. Clone the TwilioSMS repository from GitHub:
    ```
-   git clone https://github.com/lewiswigmore/TwilioSMS.git
+   git clone https://github.com/0xlews/TwilioSMS.git
    ```
 2. Navigate to the TwilioSMS directory :
    ```
